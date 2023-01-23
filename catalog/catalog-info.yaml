@@ -9,6 +9,13 @@ metadata:
     - spring
     - web
     - tanzu
+  links:
+    - url: http://nl-prod-tanzu-java-web-app.default.tanzu.dk/
+      title: App Link
+      icon: dashboard
+    - url: https://spring.io/
+      title: More about Spring
+      icon: dashboard
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=nl-tanzu-java-web-app'
 spec:
