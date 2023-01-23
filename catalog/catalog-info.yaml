@@ -22,12 +22,12 @@ spec:
   type: service
   lifecycle: experimental
   owner: dutch-team
-  system: Spring Boot Tanzu Java Web App
+  system: Java Web App
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: Spring Boot Tanzu Java Web App
+  name: Java Web App
   description: Demo app
 spec:
   owner: dutch-team
