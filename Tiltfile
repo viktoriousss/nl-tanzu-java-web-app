@@ -10,6 +10,7 @@ k8s_custom_deploy(
                " --source-image " + SOURCE_IMAGE +
                " --namespace " + NAMESPACE +
                " --yes " +
+               "--label apps.tanzu.vmware.com/has-tests=true" +
                OUTPUT_TO_NULL_COMMAND +
                " && kubectl get workload nl-tanzu-java-web-app --namespace " + NAMESPACE + " -o yaml",
     delete_cmd="tanzu apps workload delete -f config/workload.yaml --namespace " + NAMESPACE + " --yes",
@@ -22,3 +23,5 @@ k8s_custom_deploy(
 
 k8s_resource('nl-tanzu-java-web-app', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'nl-tanzu-java-web-app'}])
+
+allow_k8s_contexts('gke_dk-demo-env_europe-west3_tap')
