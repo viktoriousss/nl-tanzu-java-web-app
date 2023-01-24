@@ -22,13 +22,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: dutch-team
-  system: Java Web App
----
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: Java Web App
-  description: Demo app
-spec:
-  owner: dutch-team
-  domain: dutch-domain
+  system: java-web-app
