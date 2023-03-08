@@ -27,6 +27,6 @@ class HelloControllerTest {
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("Snowstom alert - Greetings to Stockholm from Spring and TAP!"));
+            .andExpect(content().string("Greetings to Stockholm from Spring, Tanzu and TAP!"));
     }
 }
