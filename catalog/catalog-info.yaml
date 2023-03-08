@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   links:
-    - url: http://nl-prod-tanzu-java-web-app.default.tanzu.dk/
+    - url: http://nl-tanzu-java-web-app.default.tanzu.dk/
       title: App Link
       icon: dashboard
     - url: https://spring.io/
