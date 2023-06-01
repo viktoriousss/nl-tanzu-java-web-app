@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings to The Hague from Tanzu Application Platform!";
+		return "Greetings from Tanzu Application Platform!";
 	}
 
 }
