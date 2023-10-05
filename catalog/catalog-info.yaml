@@ -10,10 +10,10 @@ metadata:
     - web
     - tanzu
   links:
-    - url: https://nl-tanzu-java-web-app.dev-viktorious.tap-gitops.tanzu.dk
+    - url: https://nl-tanzu-java-web-app.dev.full.red-tap.gcp.tanzu.ca/
       title: Production App Link
       icon: dashboard
-    - url: https://nl-tanzu-java-web-app.dev-viktorious-tmp.tap-gitops.tanzu.dk/
+    - url: https://nl-tanzu-java-web-app.viktor-iterate.full.red-tap.gcp.tanzu.ca/
       title: Test App Link
       icon: dashboard
     - url: https://spring.io/
