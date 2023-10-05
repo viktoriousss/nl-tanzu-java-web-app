@@ -27,6 +27,6 @@ class HelloControllerTest {
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("Greetings from Tanzu Application Platform to Devoxx!!"));
+            .andExpect(content().string("Greetings from Tanzu Application Platform to Devoxx in Antwerp!"));
     }
 }
