@@ -21,12 +21,13 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        //It look this line is not necessary and does the same as the mockMvc part
-        //assertEquals("Greetings to Sweco from Spring Boot + Tanzu!", controller.index());
+        // It look this line is not necessary and does the same as the mockMvc part
+        // assertEquals("Greetings to Sweco from Spring Boot + Tanzu!",
+        // controller.index());
 
         mockMvc
-            .perform(get("/"))
-            .andExpect(status().isOk())
-            .andExpect(content().string("Greetings from Tanzu Application Platform to Sweden!!"));
+                .perform(get("/"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("Greetings from Tanzu Application Platform to Sweden"));
     }
 }
