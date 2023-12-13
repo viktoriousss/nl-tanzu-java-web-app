@@ -11,7 +11,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Tanzu Application Platform! - Test";
+		return "Greetings from Tanzu Application Platform to Norway!";
 	}
 
 }
