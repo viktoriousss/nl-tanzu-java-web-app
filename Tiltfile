@@ -7,7 +7,6 @@ k8s_custom_deploy(
     'nl-tanzu-java-web-app',
     apply_cmd="tanzu apps workload apply -f config/workload.yaml --debug --live-update" +
                " --local-path " + LOCAL_PATH +
-               " --source-image " + SOURCE_IMAGE +
                " --namespace " + NAMESPACE +
                " --yes " +
                OUTPUT_TO_NULL_COMMAND +
