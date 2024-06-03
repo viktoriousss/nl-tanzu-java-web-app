@@ -21,6 +21,4 @@ k8s_custom_deploy(
 
 k8s_resource('nl-tanzu-java-web-app', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'nl-tanzu-java-web-app'}])
-allow_k8s_contexts('kubernetes-admin@kubernetes')
-allow_k8s_contexts('tapaks01')
-allow_k8s_contexts('gke_vvandenberg-proj_europe-west1_vvandenberg-proj-gke')
+allow_k8s_contexts('aks04')
