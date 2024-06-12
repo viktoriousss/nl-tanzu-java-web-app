@@ -1,0 +1,36 @@
+2024-06-11 09:39:21: *****************************************************************************
+2024-06-11 09:39:21: *                     Started SBOM Collection                               *
+2024-06-11 09:39:21: *****************************************************************************
+2024-06-11 09:39:22: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 09:39:23: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 09:39:33: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom
+2024-06-11 09:50:36: *****************************************************************************
+2024-06-11 09:50:36: *                     Started SBOM Collection                               *
+2024-06-11 09:50:36: *****************************************************************************
+2024-06-11 09:50:37: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 09:50:38: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 09:50:43: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom
+2024-06-11 10:02:52: *****************************************************************************
+2024-06-11 10:02:52: *                     Started SBOM Collection                               *
+2024-06-11 10:02:52: *****************************************************************************
+2024-06-11 10:02:53: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 10:02:54: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 10:02:59: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom
+2024-06-11 10:10:25: *****************************************************************************
+2024-06-11 10:10:25: *                     Started SBOM Collection                               *
+2024-06-11 10:10:25: *****************************************************************************
+2024-06-11 10:10:26: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 10:10:28: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 10:10:33: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom
+2024-06-11 10:30:14: *****************************************************************************
+2024-06-11 10:30:14: *                     Started SBOM Collection                               *
+2024-06-11 10:30:14: *****************************************************************************
+2024-06-11 10:30:15: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 10:30:16: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 10:30:21: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom
+2024-06-11 11:08:58: *****************************************************************************
+2024-06-11 11:08:58: *                     Started SBOM Collection                               *
+2024-06-11 11:08:58: *****************************************************************************
+2024-06-11 11:08:59: Executing command: cd /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app
+2024-06-11 11:09:01: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+2024-06-11 11:09:06: Executing command: rm -rf /System/Volumes/Data/Users/vvandenberg/Library/CloudStorage/Box-Box/lab-demo/github/nl-tanzu-java-web-app/assessment/sbom

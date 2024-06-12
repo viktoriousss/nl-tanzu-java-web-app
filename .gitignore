@@ -35,3 +35,7 @@ build/
 .vscode/
 
 spring-dependencies.txt
+run-mvn-assessment.sh
+run-mvn-assessment-v2.sh
+assessment/demo-old.json
+assessment/demo.json
