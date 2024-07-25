@@ -17,3 +17,5 @@ Just run
 ```
 tanzu deploy -y
 ```
+
+There's also an example to deploy the app to Tanzu Platform through a Gitlab CI/CD flow, more information [here](https://www.viktorious.nl/2024/07/23/integrate-tanzu-platform-for-kubernetes-with-gitlab/).
