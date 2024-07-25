@@ -24,6 +24,6 @@ class HelloControllerTest {
         mockMvc
                 .perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Greetings from Tanzu Platform!"));
+                .andExpect(content().string("Greetings from Tanzu Platform for Kubernetes to you!"));
     }
 }
