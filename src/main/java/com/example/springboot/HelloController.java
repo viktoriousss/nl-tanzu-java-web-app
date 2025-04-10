@@ -11,7 +11,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Tanzu Platform for Kubernetes to you!";
+		return "Greetings from Tanzu!";
 	}
 
 }
